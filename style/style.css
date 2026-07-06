@@ -43,15 +43,6 @@ body {
     border-radius: 2rem;
 }
 
-.profile-picture > img {
-    border: 6px solid hsl(225, 10%, 92%);
-    border-radius: 3em;
-    margin-top: -100px;
-    
-}
-
-
-
 .header {
     display: flex;
     flex: 3 1 auto;
@@ -61,18 +52,25 @@ body {
     
 }
 
+.content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0;
+    margin: 50px 50px 0px 50px;
+}
+
+.profile-picture > img {
+    border: 6px solid hsl(225, 10%, 92%);
+    border-radius: 3em;
+    margin-top: -6.5rem;
+    
+}
 
 .caption {
     display:flex;
     flex-direction: column;
     align-items: center;
-}
-
-.content {
-    display:flex;
-    flex-direction: column;
-    flex: 1 1 0;
-    margin: 50px;
 }
 
 .footer {
@@ -82,5 +80,23 @@ body {
     margin: 50px;
     width: 100%;
     justify-content: space-evenly;
+    justify-self: center;
+    border-top: 1px solid hsl(228, 7%, 87%);
+    padding-top: 3em;
 }
 
+.footer-item {
+  display:inherit;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: hsl(227, 10%, 46%);
+}
+
+.ball1{
+  
+}
